@@ -1,0 +1,103 @@
+/* Styling for the entire page */
+body {
+    background-color: #e0f7fa; /* Change the background color to light blue */
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }  
+
+/* Styling for the header section */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h3 {
+    margin-top: 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling for the main content section */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    margin-top: 30px;
+}
+
+main ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+main li {
+    margin-bottom: 5px;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+main td {
+    vertical-align: top;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+main td:first-child {
+    width: 30%;
+}
+
+main td:last-child {
+    width: 70%;
+}
+
+/* Styling for the contact form */
+form {
+    margin-top: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
